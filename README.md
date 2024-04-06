@@ -57,10 +57,10 @@ __int64 __fastcall SeValidateImageData(__int64 a1)
     return 3221226536i64; //0x0C0000428 STATUS_INVALID_IMAGE_HASH
 }
 
-// Представление SeValidateImageData в WinDBG 
+//SeValidateImageData  WinDBG 
 nt!SeValidateImageData:
 fffff802`17086b0c 4883ec48        sub     rsp,48h
-// нас интересует данный callback
+//  SeValidatImageData callback
 fffff802`17086b10 488b05b10a5b00  mov     rax,qword ptr [nt!SeCiCallbacks+0x28 (fffff802`176375c8)] // add too qword_140C375C8 -> RVA 0xc375c8
 fffff802`17086b17 4c8bd1          mov     r10,rcx
 fffff802`17086b1a 4885c0          test    rax,rax
