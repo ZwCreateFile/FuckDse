@@ -170,9 +170,9 @@ fffff802`175177ee 751c            jne     nt!KiFilterFiberContext+0x1bdc (fffff8
 
 ## winver
 
-+ Windows 11 version 10.0.22631.3374 with the latest updates
++ Windows 11 version 10.0.22631.3374 with the latest updates (22H2).
++ Windows 10 version 19045.4170 with the latest updates (22H2), (21H2), (20H2).
 
-![alt text](/img/dse_pg_bypass.gif)
 
 ## Links
 
